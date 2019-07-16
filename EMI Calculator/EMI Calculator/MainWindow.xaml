@@ -1,0 +1,115 @@
+﻿<Window x:Class="EMI_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EMI_Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--First Row-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    >
+
+            <Label 
+                Margin="10,0,20,0" FontSize="20" Content="Loan Amount:"/>
+
+            <TextBox   Name="TxtLoanAmount"
+                     Width="200" 
+                     Margin="15,5,0,5" 
+                     VerticalContentAlignment="Center"
+                     FontSize="18" 
+                     AllowDrop="True"
+                     Text="{Binding LoanAmount}"
+                     />
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    >
+
+            <Label 
+                Margin="10,0,65,0" FontSize="20" Content="Duration:"/>
+
+            <TextBox   Name="TxtDuration"
+                     Width="200" 
+                     Margin="15,5,0,5" 
+                     VerticalContentAlignment="Center"
+                     FontSize="18" 
+                     AllowDrop="True"
+                     Text="{Binding Duration}"
+                     />
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0,0,0,0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    >
+
+            <Label 
+                Margin="10,0,0,0" FontSize="20" Content="Rate of Interest: "/>
+
+            <TextBox   
+                     Width="200" 
+                     Margin="15,5,0,5" 
+                     VerticalContentAlignment="Center"
+                     FontSize="18" 
+                     AllowDrop="True" IsEnabled="False"
+                     Text="{Binding ROI}"
+                     />
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Margin="0,0,0,0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    >
+
+            <Label 
+                Margin="10,0,100,0" FontSize="20" Content="EMI: "/>
+
+            <TextBox   
+                     Width="200" 
+                     Margin="15,5,0,5" 
+                     VerticalContentAlignment="Center"
+                     FontSize="18" 
+                     AllowDrop="True" IsEnabled="False"
+                     Text="{Binding EMI}"
+                     />
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Margin="0,0,0,0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    >
+            <Button Name="btnListAllFile"  
+                    BorderBrush="Black" 
+                    BorderThickness="1" 
+                    Width="120"
+                    Margin="0,5,0,5"
+                    FontSize="18"
+                    Click="Submit"
+                    Content="Submit"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

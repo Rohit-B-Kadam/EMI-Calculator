@@ -1,0 +1,7 @@
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\bin\Debug\ROIServer.exe.config
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\bin\Debug\ROIServer.exe
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\bin\Debug\ROIServer.pdb
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\obj\Debug\ROIServer.csprojAssemblyReference.cache
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\obj\Debug\ROIServer.csproj.CoreCompileInputs.cache
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\obj\Debug\ROIServer.exe
+H:\Technology\Dot Net\Project\ROIServer\ROIServer\obj\Debug\ROIServer.pdb

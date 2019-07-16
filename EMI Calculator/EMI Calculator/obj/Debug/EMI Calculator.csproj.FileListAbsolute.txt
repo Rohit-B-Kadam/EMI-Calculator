@@ -1,0 +1,15 @@
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\bin\Debug\EMI Calculator.exe.config
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\bin\Debug\EMI Calculator.exe
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\bin\Debug\EMI Calculator.pdb
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.csprojAssemblyReference.cache
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\MainWindow.g.cs
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\App.g.cs
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator_MarkupCompile.cache
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator_MarkupCompile.lref
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\MainWindow.baml
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.g.resources
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI_Calculator.Properties.Resources.resources
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.csproj.GenerateResource.cache
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.csproj.CoreCompileInputs.cache
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.exe
+H:\Technology\Dot Net\Project\EMI Calculator\EMI Calculator\obj\Debug\EMI Calculator.pdb
